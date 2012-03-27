@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acerca_de">Acerca de..</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="app_name">COAC2012</string>
+    <string name="texto_acerca_de"><b>ATENCIÓN: La Aplicación COAC2012 para Android aun se encuentra en fase beta,  
+    por lo que seguro que contiene algunos errores; por lo tanto si encuentra alguno de ellos, ve algún dato incorrecto o quiere  
+    proponer alguna mejora no dude en contactar con el equipo de desarrollo y en el menor tiempo posible intentaremos contestar y solucionar el problema</b>
+    \n\n
+    COAC2012 pretende ser el punto de información sobre el COAC2012 para la plataforma móvil Android. Principalmente dispone de  
+    información referente a las agrupaciones, las actuaciones, la clasificación, el calendario, enlaces a vídeos y comentarios, etc. 
+    Además ofrece la posibilidad de guardar agrupaciones favoritas, ver las preeliminares a través de Onda Cádiz y escuchar todo 
+    el concurso desde Radio Andalucía Información
+    \n\n
+    COAC2012 está desarrollada sin ánimo de lucro por Jesús Corralejo Banda, un apasionado de Carnaval y de las nuevas tecnologías.
+    Si te gusta la aplicación y/o te parece útil, puedes invitarlo a una cerveza comprando la versión de pago de COAC2012* 
+    o puedes pulsar de vez en cuando en la publicidad, no te cuesta nada.
+    \n\n\n
+    *La versión de pago de COAC2012 no tiene ninguna mejora sobre la versión gratuita, salvo la eliminación
+    de la publicidad en sus pantallas. Sólo es una forma de reconocer el trabajo realizado por su autor
+    </string>
+    <string name="salir">Salir</string>
+    <string name="adId">a14f1728557472c</string>
+</resources>

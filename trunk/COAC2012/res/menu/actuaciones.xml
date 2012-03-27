@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/actVer" 
+		android:title="Ver online"
+		android:icon="@drawable/ic_menu_video"/>
+	<item
+		android:id="@+id/actOir" 
+		android:title="Escuchar online"
+		android:icon="@drawable/ic_menu_radio"/>
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/agrNombre"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Nombre Agrupación"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/agrFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="IC_FAV"
+            android:src="@drawable/ic_fav"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/agrDatosExtras"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Los Carapapas"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#6b6b6b" />
+
+    <TextView
+        android:id="@+id/agrCOAC2011"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="COAC2012: Los currisquillos"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#6b6b6b" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/agrFichaCC" 
+		android:title="Ficha oficial"
+		android:icon="@drawable/ic_menu_archive" />
+	<item
+		android:id="@+id/agrVideos" 
+		android:title="Vídeos"
+		android:icon="@drawable/ic_menu_play_clip" />
+	<item
+		android:id="@+id/agrComentarios" 
+		android:title="Comentarios"
+		android:icon="@drawable/ic_menu_start_conversation" />
+	<item
+		android:id="@+id/agrFavoritos" 
+		android:title="+/- Favoritos"
+		android:icon="@drawable/ic_menu_favorite" />
+</menu>

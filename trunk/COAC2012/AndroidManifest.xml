@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="es.jcorralejo.android"
+    android:versionCode="9"
+    android:versionName="1.3.1" >
+
+    <uses-sdk android:minSdkVersion="6" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".coac2012.CoacApplication"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".coac2012.activities.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".coac2012.activities.ModalidadesActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.AgrupacionesActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.AgrupacionActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.VideosActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.ComentariosActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.ActuacionActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.ConcursoActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.DiasFaseActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.OrdenActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.ModalidadOrdenActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.MasCarnavalActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.EnlacesActivity" >
+        </activity>
+        <activity android:name=".coac2012.activities.EnlacesTipoActivity" >
+        </activity>
+
+        
+                <!-- The application's publisher ID assigned by AdMob -->
+        <meta-data
+            android:name="ADMOB_PUBLISHER_ID"
+            android:value="a14f1728557472c" />
+
+        <!-- AdMobActivity definition -->
+        <activity 
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+    </application>
+
+</manifest>
