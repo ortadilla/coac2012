@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menuActualizar" 
+		android:title="@string/actualizar"
+		android:icon="@drawable/ic_menu_refresh" />
+	<item
+		android:id="@+id/menuAcercaDe" 
+		android:title="@string/acerca_de"
+		android:icon="@drawable/ic_menu_info_details" />
+	<item
+		android:id="@+id/menuQuit" 
+		android:title="@string/salir"
+		android:icon="@drawable/ic_menu_logout" />
+</menu>

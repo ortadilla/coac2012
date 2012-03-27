@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/es.jcorralejo.android.coac2012"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cartel"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.google.ads.AdView
+            android:id="@+id/ad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/adId" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/comparsas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Comparsas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chirigotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Chirigotas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/coros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Coros"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cuartetos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Cuartetos"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#6b6b6b"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.google.ads.AdView
+            android:id="@+id/ad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/adId" />
+    </LinearLayout>
+
+</LinearLayout>
